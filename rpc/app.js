@@ -36,7 +36,7 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     computerScoreSpan.innerHTML = computerScore;
     userScoreSpan.innerHTML = userScore;
-    resultDiv.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + ". You Lost!";
+    resultDiv.innerHTML = convertToWord(computerChoice) + " beats " + convertToWord(userChoice) + ". You Lost!";
     userChoiceDiv.classList.add('red-glow');
     setTimeout(() => { userChoiceDiv.classList.remove('red-glow') }, 300);
 }
