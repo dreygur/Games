@@ -1,3 +1,11 @@
+/*
+ *  Rock Paper Scissors Game
+ *  Copy at your own risk
+ *  It may compromise your system ;P
+ *  Just Joking
+ *  Do wtf you wish with this code
+ */
+
 let userScore = 0;
 let computerScore = 0;
 const userScoreSpan = document.getElementById("user-score");
